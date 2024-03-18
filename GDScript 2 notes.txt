@@ -1,0 +1,9 @@
+Port to Godot 4.1.3 - Tom Blackwell - 18 Mar 2024
+
+demo.gd - update() replace with queue_redraw()
+Boolean exports have same name as functions, now prefixed with underscore.
+
+Delaunator.gd - declared constant EDGE_STACK, then assigned to them.
+Changed to var and changed to lower case.
+Fixed fencepost error at end of Delaunator.update()
+when slicing _triangles and _halfedges
