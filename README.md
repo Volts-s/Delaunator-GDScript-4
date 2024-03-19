@@ -1,6 +1,6 @@
 # Delaunator GDScript
 
-![Godot v3.x](https://img.shields.io/badge/Godot-v3.x-%23478cbf?logo=godot-engine&logoColor=white&style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/hiulit/Delaunator-GDScript?&style=flat-square) ![GitHub license](https://img.shields.io/github/license/hiulit/Delaunator-GDScript?&style=flat-square)
+![Godot v4.x](https://img.shields.io/badge/Godot-v4.x-%23478cbf?logo=godot-engine&logoColor=white&style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/hiulit/Delaunator-GDScript?&style=flat-square) ![GitHub license](https://img.shields.io/github/license/hiulit/Delaunator-GDScript?&style=flat-square)
 
 A GDScript port of Delaunator: A fast library for [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation) of 2D points.
 
