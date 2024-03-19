@@ -58,9 +58,9 @@ var coordinates = []
 
 for i in range(0, triangles.size(), 3):
   coordinates.append([
-    points[triangles[i]],
-    points[triangles[i + 1]],
-    points[triangles[i + 2]]
+	points[triangles[i]],
+	points[triangles[i + 1]],
+	points[triangles[i + 2]]
   ])
 ```
 
@@ -86,7 +86,7 @@ Updates the triangulation if you modified `Delaunator.new(points).coords` values
 
 ## 📈 Performance
 
-Benchmark results performed on a Macbook Pro Retina 15" 2015 with Godot 3.2 and 3.3 using this method:
+Benchmark results performed on a Macbook Pro Retina 15" 2015 with Godot 3.2 and 3.3 and on a Macbook Pro M1 14" with Godot 4.1.3 using this method:
 
 ```gdscript
 var start = OS.get_ticks_msec()
@@ -99,6 +99,7 @@ print(elapsed)
 | :-- | --: | --: | --: | --: | --: |
 | **Godot 3.2** | ~1ms | ~6ms | ~67ms | ~760ms | ~9.4s |
 | **Godot 3.3** | ~1ms | ~8ms | ~77ms | ~850ms | ~10.0s |
+| **Godot 4.1** | ~1ms | ~4ms | ~18ms | ~224ms | ~2.4 s |
 
 
 ## 🗒️ Changelog

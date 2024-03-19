@@ -17,7 +17,7 @@ const Delaunator = preload("res://Delaunator.gd")
 
 @onready var input_points = $GUI/input_points
 
-var default_seed_points = 100
+var default_seed_points = 100000
 var initial_points
 var points
 var delaunay

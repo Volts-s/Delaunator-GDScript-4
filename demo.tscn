@@ -5,12 +5,7 @@
 [node name="demo" type="Node2D"]
 script = ExtResource("1")
 random_points = false
-_draw_triangle_edges = true
-_draw_voronoi_cells = true
-_draw_voronoi_cells_convex_hull = true
-_draw_voronoi_edges = true
-_draw_points = true
-_draw_triangle_centers = true
+_draw_triangles = false
 debug_mode = true
 
 [node name="GUI" type="CanvasLayer" parent="."]
